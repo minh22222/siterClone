@@ -1,0 +1,86 @@
+@media (max-width: 739px) {
+    html {
+        overflow-x: hidden;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    #introduction .section-title, .section-title {
+        font-size: 45px;
+        padding: 0;
+    }
+    #introduction .section-desc, .section-desc {
+        padding: 0;
+        font-size: 16px;
+    }
+    #editor .right {
+        margin-top: 100px;
+    }
+    section {
+        margin-top: 50px;
+    }
+    .man-img, .woman-img {
+        width: 50px;
+    }
+    
+    .talk-1, .talk-2 {
+        font-size: 14px;
+    }
+    .talk-1 {
+        left: 100px;
+    }
+    .talk-2 {
+        bottom: 20px;
+        right: 100px;
+    }
+    .work-img {
+        margin-top: 50px;
+    }
+    #price .col {
+        margin-bottom: 50px;
+    }
+    .privacy {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 739px) and (max-width: 1023px)  {
+    .hide-on-tablet {
+        display: none;
+    }
+    #introduction .section-title, .section-title {
+        font-size: 48px;
+        padding: 0;
+    }
+    #introduction .section-desc, .section-desc {
+        padding: 0;
+        font-size: 24px;
+    }
+    #editor .right {
+        margin-top: 100px;
+    }
+    section {
+        margin-top: 50px;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .man-img {
+        left: -6%;
+    }
+    .woman-img {
+        right: -6%;
+    }
+    .no-credit {
+        display: block;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+
+}
